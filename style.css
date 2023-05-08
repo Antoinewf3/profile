@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@300&display=swap');
+
+body{
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto;
+}
+
+h1, h2, h3{
+  font-family: 'Roboto', sans-serif;
+  color: #58607D;
+}
+
+p {
+  color: #58607D;
+}
+
+#profile-pic {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 20px -5px #000000;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 40px;
+  text-align: center;
+}
+
+.card li {
+  list-style: none;
+  display: inline-block;
+  /* padding-right: 15px; */
+}
+
+
+
+.card .btn-gold:hover {
+  background-color: lightskyblue;
+}
+#follow{
+  color: #7ECE91;
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+.social-icon:hover{
+  text-align: center;
+}
+.btn-gold{
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #6B72E1;
+  padding: 10px 15px 10px 10px;
+  border-radius: 4px;
+}
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
